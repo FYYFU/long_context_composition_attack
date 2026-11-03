@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or benchmark, please cite the paper below."
+type: software
+title: "Long Context Composition Attack"
+authors:
+  - family-names: Fu
+    given-names: Yu
+  - family-names: Shahgir
+    given-names: Haz Sameen
+  - family-names: Gong
+    given-names: Huanli
+  - family-names: Wei
+    given-names: Zhipeng
+  - family-names: Erichson
+    given-names: N. Benjamin
+  - family-names: Dong
+    given-names: Yue
+repository-code: "https://github.com/FYYFU/long_context_composition_attack"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Do Reasoning LLMs Refuse What They Infer in Long Contexts?"
+  authors:
+    - family-names: Fu
+      given-names: Yu
+    - family-names: Shahgir
+      given-names: Haz Sameen
+    - family-names: Gong
+      given-names: Huanli
+    - family-names: Wei
+      given-names: Zhipeng
+    - family-names: Erichson
+      given-names: N. Benjamin
+    - family-names: Dong
+      given-names: Yue
+  year: 2026
+  journal: arXiv
+  identifiers:
+    - type: other
+      value: "arXiv:2602.08874"
+      description: "arXiv preprint identifier"
+  url: "https://arxiv.org/abs/2602.08874"

@@ -1,0 +1,860 @@
+{
+  "description": "Provenance of retained local sources before portability edits and English annotation translation. Paths are relative to the original research workspace. No Git history was imported.",
+  "files": [
+    {
+      "source": "long-attack-massive/src/compare_sample_sizes.py",
+      "destination": "src/compare_sample_sizes.py",
+      "source_sha256": "a21521e6e7190f2ac90a41724c4cd4fafc466e36e0ec2c2cb6ee1927e501443a"
+    },
+    {
+      "source": "long-attack-massive/src/evaluate.py",
+      "destination": "src/evaluate.py",
+      "source_sha256": "1f397adaea00b49e921470f975d8b5ef36eb45d8522434a7079e65b22a5a19d8"
+    },
+    {
+      "source": "long-attack-massive/src/prepare_data.py",
+      "destination": "src/prepare_data.py",
+      "source_sha256": "b798de3be1472b81b6a3f2001d920f8965852fddd6461444b0ae82ae0943de5a"
+    },
+    {
+      "source": "long-attack-massive/src/run_inference.py",
+      "destination": "src/run_inference.py",
+      "source_sha256": "de8c033de92852cd7fe84d6705b025ca80448cafe9eb3b9954cfe179fba16fbc"
+    },
+    {
+      "source": "long-attack-massive/src/status.py",
+      "destination": "src/status.py",
+      "source_sha256": "658b384247e6ae9a67ccb8bf238de2f636391dbf005c5a8f4e80b919bd4d27ea"
+    },
+    {
+      "source": "long-attack-massive/src/summarize.py",
+      "destination": "src/summarize.py",
+      "source_sha256": "f288a4f6fb76b32c4b29ded0a36aeaca75c7e18d35c11f4a5193d0e73735a8c0"
+    },
+    {
+      "source": "long-attack-massive/src/validate_tasks.py",
+      "destination": "src/validate_tasks.py",
+      "source_sha256": "7edeb09db0f3e37d71818abc773babb1a467b03de33d618eb4cfd5000aea2ef1"
+    },
+    {
+      "source": "long-attack-massive/scripts/run_judge_only.sh",
+      "destination": "scripts/run_judge_only.sh",
+      "source_sha256": "9e3b0b255946087d6faafff9634751687eba4b4bf16c2646083de97fdaa43f69"
+    },
+    {
+      "source": "long-attack-massive/scripts/run_local_vllm_20b.sh",
+      "destination": "scripts/run_local_vllm_20b.sh",
+      "source_sha256": "1e7bbaa224cdfc603aca4737d1d9a99a7e8034e9747b8a67837cc451cb7920aa"
+    },
+    {
+      "source": "long-attack-massive/scripts/run_openrouter.sh",
+      "destination": "scripts/run_openrouter.sh",
+      "source_sha256": "eafafad6ca0731f7716e0242d3cd5837d6f93504a5fb738c5d887471318d143a"
+    },
+    {
+      "source": "long-attack-massive/scripts/status.sh",
+      "destination": "scripts/status.sh",
+      "source_sha256": "22590554b970e1eac358785fdd2aa7a7cb4c5494ca06be445840232e2c149469"
+    },
+    {
+      "source": "long-attack-massive/scripts/verify_repo.sh",
+      "destination": "scripts/verify_repo.sh",
+      "source_sha256": "1aaafe47f015eaafbe00f2e08158fde985be80f43765682bcb077404dca008c2"
+    },
+    {
+      "source": "long-attack-massive/data/source/advbench_transformed_api_gemini-2.0-flash-001_fixed.json",
+      "destination": "data/source/advbench_transformed_api_gemini-2.0-flash-001_fixed.json",
+      "source_sha256": "5f0680b07b5543711370f30cf7d2edb2003c451a2ba4452dda58814c911732a6"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_0_0k.json.gz",
+      "destination": "data/tasks-gz/level_0_0k.json.gz",
+      "source_sha256": "41159f30dcfe21982b0f08080fdeb65875f23da940ae103c1e5d826b8bb7e90f"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_0_16k.json.gz",
+      "destination": "data/tasks-gz/level_0_16k.json.gz",
+      "source_sha256": "53be5bfe5ff2b8894b27ff362ea612b979c5d7f848398b1f3ef7cfd3ea83aad2"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_0_64k.json.gz",
+      "destination": "data/tasks-gz/level_0_64k.json.gz",
+      "source_sha256": "f3d4a71f1e3934844ab262baf194fce8e8d64abcccfbe8b7430485f4f5699082"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_1_0k.json.gz",
+      "destination": "data/tasks-gz/level_1_0k.json.gz",
+      "source_sha256": "4cac31ebb535c4e775df9d1a627b472d11c8119a5facb56df352d2bff94f8221"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_1_16k.json.gz",
+      "destination": "data/tasks-gz/level_1_16k.json.gz",
+      "source_sha256": "b360f87326467fbdf8d92de3baa94d5224a29717d78b7e41782a54914f8c7fcd"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_1_64k.json.gz",
+      "destination": "data/tasks-gz/level_1_64k.json.gz",
+      "source_sha256": "fccbf0f5cfb6a5c5a71bbf5f44754fae3054aefbb04f726fb18a2a5ebb33ba13"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_2_0k.json.gz",
+      "destination": "data/tasks-gz/level_2_0k.json.gz",
+      "source_sha256": "58f65874cf89d74192903cb0f2e28a4431cb1fb92e84a8ca5746e16f304a0a1c"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_2_16k.json.gz",
+      "destination": "data/tasks-gz/level_2_16k.json.gz",
+      "source_sha256": "beb074d73a841d19a5852927e62a42cc83e9e05b29596260c6fd25a76583c433"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_2_64k.json.gz",
+      "destination": "data/tasks-gz/level_2_64k.json.gz",
+      "source_sha256": "f4656c2a33cd2a31e2b27a6348bbc387fdfde0b6de71345b4f2a0ba3906dd5d8"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_3_0k.json.gz",
+      "destination": "data/tasks-gz/level_3_0k.json.gz",
+      "source_sha256": "14fb9ac1aaa51933f477e3d7bb0069ee5d612ff88716c7a7f7012454e91be06b"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_3_16k.json.gz",
+      "destination": "data/tasks-gz/level_3_16k.json.gz",
+      "source_sha256": "00cd968647bd378674e0f0781432213e0bbd8e6369b00211b60bfa7442bfd072"
+    },
+    {
+      "source": "long-attack-massive/data/tasks-gz/level_3_64k.json.gz",
+      "destination": "data/tasks-gz/level_3_64k.json.gz",
+      "source_sha256": "b05e691baa0b3d1c3e2231951aef9d3db6abdaab8b0bbdf8898f63cea477e5e4"
+    },
+    {
+      "source": "long-attack-massive/requirements.txt",
+      "destination": "requirements.txt",
+      "source_sha256": "cd19cb900e82b9448e0bcdfb24bdec404b669625e37ff3bd2ec751d1805cf892"
+    },
+    {
+      "source": "long-attack-massive/requirements-vllm.txt",
+      "destination": "requirements-vllm.txt",
+      "source_sha256": "a3d99aa0be59ec75fb003ee3a545411d1e888b7962c284cceb673c38170bf228"
+    },
+    {
+      "source": "long-attack-massive/.env.example",
+      "destination": ".env.example",
+      "source_sha256": "7e81bba47ac3836860e226d1ecac84972b8054db0d4fefc695a5ee5af0492b2f"
+    },
+    {
+      "source": "long-attack-massive/.gitattributes",
+      "destination": ".gitattributes",
+      "source_sha256": "10b859769807a8c64011056f992134a477ca03f34118773b068e9eb79f84bdca"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/asr.py",
+      "destination": "paper/src/asr.py",
+      "source_sha256": "c41f38f83e170461a32b2cc51c6b28397b31cd4f110f1c9b53adb77ab3418112"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/create_task.py",
+      "destination": "paper/src/create_task.py",
+      "source_sha256": "bc7e921c2d82e680879a93ca66e1a8a125d68b8560866d0fdd2d7413cc9d6645"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api.py",
+      "destination": "paper/src/run_api.py",
+      "source_sha256": "d77ec593a9ce49a6927b6a04c3d9b484742ef36fd61c7652a56e470a80a3ea8c"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api.sh",
+      "destination": "paper/src/run_api.sh",
+      "source_sha256": "9b4c07c26b95aacbf5bd8ffa5709f0a686752bd06924f0bee5143d5e3c98f388"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api_claude.sh",
+      "destination": "paper/src/run_api_claude.sh",
+      "source_sha256": "519059afc0ac8555cb12b5d5dc64515928cdecdd1a22d7cb60a43962ddcb60e4"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api_gemini_3_pro.sh",
+      "destination": "paper/src/run_api_gemini_3_pro.sh",
+      "source_sha256": "8e18e3a0ce9c6a7aa5849b1eed2b1ebc843691addfca8fcb4be234d039154e1f"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api_gpt_4o_mini.sh",
+      "destination": "paper/src/run_api_gpt_4o_mini.sh",
+      "source_sha256": "fd96417614911d6d6be55e6feef5d546a2fb11f3309ae0a81f46fc0d67ea18b4"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api_gpt_5_2.sh",
+      "destination": "paper/src/run_api_gpt_5_2.sh",
+      "source_sha256": "eab7486d9147d9920aa425005dce071e7c24c289afa233b1815f2b15c7ffa825"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_api_kimi_k2.sh",
+      "destination": "paper/src/run_api_kimi_k2.sh",
+      "source_sha256": "a9cd9e02de55b9dda971b7703fb7930e49e42e85b796f9a6d739c309570df2ac"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_gpt_oss.py",
+      "destination": "paper/src/run_gpt_oss.py",
+      "source_sha256": "e087e566e2c727bfcb5f588f6f0bf73d5cefb1b27ffb78cc5d75c2418d518079"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/src/run_gpt_oss_20b.sh",
+      "destination": "paper/src/run_gpt_oss_20b.sh",
+      "source_sha256": "5da9305663eedd4568e4f6ee463b2757630756012288b4cf4b266cfe1504d8f0"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/utils/gpt_batch.py",
+      "destination": "paper/utils/gpt_batch.py",
+      "source_sha256": "6021ebab98dae038575ae2df65705bf31eef01d823c2a284f4510db50ff4840e"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/asr.py",
+      "destination": "paper/Analysis/Context_Type/asr.py",
+      "source_sha256": "c41f38f83e170461a32b2cc51c6b28397b31cd4f110f1c9b53adb77ab3418112"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/babi_utils.py",
+      "destination": "paper/Analysis/Context_Type/babi_utils.py",
+      "source_sha256": "18a36a6dce3b1cc4fc5ee9667f8fca6eb4e955a8cf82d1a883eb81506b652e3a"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/create_task.py",
+      "destination": "paper/Analysis/Context_Type/create_task.py",
+      "source_sha256": "9e1c0a33b9e1b15f88061f3e79e489dbc5e8ea90be8896ff478da08247702e1a"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/generate_relevant.py",
+      "destination": "paper/Analysis/Context_Type/generate_relevant.py",
+      "source_sha256": "2754e0261efa635c72cec847209c8f35d5c033eaeb8a0ada1e4e3a365af07e9c"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/gpt_batch.py",
+      "destination": "paper/Analysis/Context_Type/gpt_batch.py",
+      "source_sha256": "9514446f8764b2ae451f6ad55da2b521fff66743d00178a401f84321b9f5ac61"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/run_api.py",
+      "destination": "paper/Analysis/Context_Type/run_api.py",
+      "source_sha256": "833da7f8deae8feafd1bd9c78dfab6e76ee2c71b4bfd41cc02f627e1adef89dc"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/run_api.sh",
+      "destination": "paper/Analysis/Context_Type/run_api.sh",
+      "source_sha256": "1fca97bedd578c0205559c4ebde5b70ee51794c0222ea58063e397fea7300298"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/run_create_task.sh",
+      "destination": "paper/Analysis/Context_Type/run_create_task.sh",
+      "source_sha256": "4b5eaf8be8e454f9fb70db0a2476acf66219227b1b63aeb13326b004c78a891b"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Context_Type/run_generate.sh",
+      "destination": "paper/Analysis/Context_Type/run_generate.sh",
+      "source_sha256": "9e69ea1969e0f58191969640c485dd2a47e197406fa9bcc49e310b8975e4ea8d"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/asr.py",
+      "destination": "paper/Analysis/Needle_Language/asr.py",
+      "source_sha256": "c41f38f83e170461a32b2cc51c6b28397b31cd4f110f1c9b53adb77ab3418112"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/babi_utils.py",
+      "destination": "paper/Analysis/Needle_Language/babi_utils.py",
+      "source_sha256": "09ab02d26253743a1c781aa31932f6dca5cdcd7a57e8ab5dce4054b1ce4c10f0"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/create_task.py",
+      "destination": "paper/Analysis/Needle_Language/create_task.py",
+      "source_sha256": "f39091e6bb2ea037f321e7b3e87ab247162a78a9f0b7d22835a830fe3ea6b808"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/download_multilingual_corpus.py",
+      "destination": "paper/Analysis/Needle_Language/download_multilingual_corpus.py",
+      "source_sha256": "bc0fc4c9442a40ef574dc667462ab91567800cb53b1a42be8a9787c0b203dc0f"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/gpt_batch.py",
+      "destination": "paper/Analysis/Needle_Language/gpt_batch.py",
+      "source_sha256": "712c188427f0f1758ebc62c31f0fa265d6aa834e3e4610c2ed3cfe7e275507a1"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/run_api.py",
+      "destination": "paper/Analysis/Needle_Language/run_api.py",
+      "source_sha256": "4283ca1cf3c4b7f3187692ad58ba66df5ef8a2232d82abbde6d83fb3ced9ef63"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/run_create_tasks.sh",
+      "destination": "paper/Analysis/Needle_Language/run_create_tasks.sh",
+      "source_sha256": "bbd292b7c40c96a2205bcbfb1546885853fff77cc98f3e44649a13adbdb85a5b"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/run_download_corpus.sh",
+      "destination": "paper/Analysis/Needle_Language/run_download_corpus.sh",
+      "source_sha256": "be4932d02ff19fa6e71e543db8db1a629b82b73014e3a7c472a6788ca37e82c4"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/run_experiment_120b.sh",
+      "destination": "paper/Analysis/Needle_Language/run_experiment_120b.sh",
+      "source_sha256": "404db0b762c63512fe2abea791dc761bf222d409ba6d69bb92b57d8d29bb632a"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/run_experiment_20b.sh",
+      "destination": "paper/Analysis/Needle_Language/run_experiment_20b.sh",
+      "source_sha256": "5c7eb1b5b71f7608672d79d7b7630b05abb9ea2214fa432212c9dd5afc0d72c3"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/run_translate.sh",
+      "destination": "paper/Analysis/Needle_Language/run_translate.sh",
+      "source_sha256": "e0f7da893d7756b9eee01e967cd2af73d14b2b6e3136829d42b763b0ac507228"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Language/translate_facts.py",
+      "destination": "paper/Analysis/Needle_Language/translate_facts.py",
+      "source_sha256": "ff04c14384bba2c11d30acb49f32c6f1fb01213e86702cfb75eef4cf4f5e81b0"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/asr.py",
+      "destination": "paper/Analysis/Needle_Position/asr.py",
+      "source_sha256": "c41f38f83e170461a32b2cc51c6b28397b31cd4f110f1c9b53adb77ab3418112"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/babi_utils.py",
+      "destination": "paper/Analysis/Needle_Position/babi_utils.py",
+      "source_sha256": "cfdc5b6c42e0a36e0afb9af5fe2a3fec9b1d94962b8a567a334dc639582a78b6"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/create_position_task.sh",
+      "destination": "paper/Analysis/Needle_Position/create_position_task.sh",
+      "source_sha256": "936fad3ff248ab75ed74f679b3e1d787d3c675f56cbe9008ce07558ceb79e965"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/create_task.py",
+      "destination": "paper/Analysis/Needle_Position/create_task.py",
+      "source_sha256": "afd2342b37401d692973cd2c531ec42342a1d3db4eac5afcf8bd3176fb8069b2"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/gpt_batch.py",
+      "destination": "paper/Analysis/Needle_Position/gpt_batch.py",
+      "source_sha256": "712c188427f0f1758ebc62c31f0fa265d6aa834e3e4610c2ed3cfe7e275507a1"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/run_api.py",
+      "destination": "paper/Analysis/Needle_Position/run_api.py",
+      "source_sha256": "4283ca1cf3c4b7f3187692ad58ba66df5ef8a2232d82abbde6d83fb3ced9ef63"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/run_api_120b.sh",
+      "destination": "paper/Analysis/Needle_Position/run_api_120b.sh",
+      "source_sha256": "6e3542031961fce55657ee6a75ddbcddd04ea36ea60696df09987d382b812728"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_Position/run_api_20b.sh",
+      "destination": "paper/Analysis/Needle_Position/run_api_20b.sh",
+      "source_sha256": "883c733367c79831f1865fa7cdf2c6dcd63f6e41671b7ffaf5045bf81603e42a"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/analyze_distribution.py",
+      "destination": "paper/Analysis/Needle_position_icml/analyze_distribution.py",
+      "source_sha256": "2b60d8436b91c68ca2afaca5a38da75abd28655b686e0e686b71bacb61dd787e"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/asr.py",
+      "destination": "paper/Analysis/Needle_position_icml/asr.py",
+      "source_sha256": "c41f38f83e170461a32b2cc51c6b28397b31cd4f110f1c9b53adb77ab3418112"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/babi_utils.py",
+      "destination": "paper/Analysis/Needle_position_icml/babi_utils.py",
+      "source_sha256": "cfdc5b6c42e0a36e0afb9af5fe2a3fec9b1d94962b8a567a334dc639582a78b6"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/create_distribution_task.sh",
+      "destination": "paper/Analysis/Needle_position_icml/create_distribution_task.sh",
+      "source_sha256": "36cf1232597f47e396a5c6a2ace6643fdd95443db1500fc56b2d065c0629e8f2"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/create_task.py",
+      "destination": "paper/Analysis/Needle_position_icml/create_task.py",
+      "source_sha256": "2ee7af9a7d1eb8a74a62331ce3177d328e698284345c06bd74f2c3e7a4856f85"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/gpt_batch.py",
+      "destination": "paper/Analysis/Needle_position_icml/gpt_batch.py",
+      "source_sha256": "712c188427f0f1758ebc62c31f0fa265d6aa834e3e4610c2ed3cfe7e275507a1"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/run_api.py",
+      "destination": "paper/Analysis/Needle_position_icml/run_api.py",
+      "source_sha256": "01e118ade204fdd0f76f6af85965a137783ab48d947348dd8ec1586eec2671a2"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/run_api_distribution_120b.sh",
+      "destination": "paper/Analysis/Needle_position_icml/run_api_distribution_120b.sh",
+      "source_sha256": "28e57647169f863cbaf4bbc741f48ef1174572d4ca9d59f14047578c01cec5d7"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/run_api_distribution_20b.sh",
+      "destination": "paper/Analysis/Needle_position_icml/run_api_distribution_20b.sh",
+      "source_sha256": "dcd2a04bda9f8d463166f4cfa12528ee81fe048bc026233e9626955899c32bff"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Needle_position_icml/run_eval.sh",
+      "destination": "paper/Analysis/Needle_position_icml/run_eval.sh",
+      "source_sha256": "2b6058d681e0c8bea3f4941da01faf7262422c1eff000d9071a00c96bd024f97"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Reasoning_Chain/analyze_awareness_trajectory.py",
+      "destination": "paper/Analysis/Reasoning_Chain/analyze_awareness_trajectory.py",
+      "source_sha256": "0b08747364e17db76a0d429071366d60f0fba7dde9436811efefa7ef8f474c13"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/Analysis/Reasoning_Effort/analysis_reaoning_effort.ipynb",
+      "destination": "paper/Analysis/Reasoning_Effort/analysis_reaoning_effort.ipynb",
+      "source_sha256": "3cc579c5f3773be074f3126d26edec6f1d685e12b6d83bf4cd97df277522dac6"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/vis/vis_analysis_context.ipynb",
+      "destination": "paper/vis/vis_analysis_context.ipynb",
+      "source_sha256": "c57b316a1b5de4bdf8035a6926fafac240d7d6e5a91457674293f2476138c56e"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/vis/vis_analysis_language.ipynb",
+      "destination": "paper/vis/vis_analysis_language.ipynb",
+      "source_sha256": "317f3c0b1c108a0d72d227ac7df1158bd5fc3120fa58f30ce9cdf988e0f6205a"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/vis/vis_needle_position.ipynb",
+      "destination": "paper/vis/vis_needle_position.ipynb",
+      "source_sha256": "53ccc11fb4d12d03a689fac26937192924a79cb3732bda31da61ec4e10af233c"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline/create_task_benign.py",
+      "destination": "controls/benign_baseline/create_task_benign.py",
+      "source_sha256": "03ab8717ca82eac7e5afa1ed85712fd2c62e832492f78d2d53c2c6432607ac8e"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline/eval.sh",
+      "destination": "controls/benign_baseline/eval.sh",
+      "source_sha256": "ab1e9968079addb5dfcd3c2c611fc14755b69ef59a7d45b0e996d819554d5798"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline/eval_reconstruction.py",
+      "destination": "controls/benign_baseline/eval_reconstruction.py",
+      "source_sha256": "27723a47e30cfbaae2ff37ddda48be4d01db92f3904c45524771365303493921"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline/run_benign.py",
+      "destination": "controls/benign_baseline/run_benign.py",
+      "source_sha256": "b9d710038c1374731519e75e3d6374457de23495d33b544f2e825bb446b8954c"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline/run_pipeline.sh",
+      "destination": "controls/benign_baseline/run_pipeline.sh",
+      "source_sha256": "83bdbd3a5ff5f84612375636e5e59f6da9276f55bc88148a923645fc9c99346f"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/create_task.py",
+      "destination": "controls/harmbench_benchmark/create_task.py",
+      "source_sha256": "8dfbc349c18fde80df3dcf5e2f31be2594e3b307ca4bb9d02fc9f7b22215852d"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/decompose_harmbench.py",
+      "destination": "controls/harmbench_benchmark/decompose_harmbench.py",
+      "source_sha256": "23f109c4fe999f5b39162a594e215429e305ed1113e367ddb0edce730c730281"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/download_harmbench.py",
+      "destination": "controls/harmbench_benchmark/download_harmbench.py",
+      "source_sha256": "0f0df1b6a0ff4169e8a92b67ccb137aac208cbac93acb00c6b9b1af8cc9daf79"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/run_harmbench.py",
+      "destination": "controls/harmbench_benchmark/run_harmbench.py",
+      "source_sha256": "ddac949caec94d0f1d559f978253b7f824275b2e3ea392ce8b0c9fd36e13cfc6"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/run_pipeline.sh",
+      "destination": "controls/harmbench_benchmark/run_pipeline.sh",
+      "source_sha256": "46a9f8a490624bd648b7ae8fae35c16c01d439446b8ac2816dd06d261feb9822"
+    },
+    {
+      "source": "ICML2026_rebuttal/cross_validation/eval/check_safe_gpt.py",
+      "destination": "controls/cross_validation/eval/check_safe_gpt.py",
+      "source_sha256": "fb4d1d3321187f0ec4175466f29f89916bc12e399d1d88b913acee46cbf5ca9f"
+    },
+    {
+      "source": "ICML2026_rebuttal/cross_validation/eval/gpt_batch.py",
+      "destination": "controls/cross_validation/eval/gpt_batch.py",
+      "source_sha256": "e5087e62572f182e8ca47dd6c6e33e378f14db4c0d6b7ffbf8c35fe36d77e7e4"
+    },
+    {
+      "source": "ICML2026_rebuttal/cross_validation/scripts/analyze_judge_agreement.py",
+      "destination": "controls/cross_validation/scripts/analyze_judge_agreement.py",
+      "source_sha256": "984d2ef60502c15253b3d576eb022dcb1d0174baaad7f5e89b708c7f98996c9c"
+    },
+    {
+      "source": "ICML2026_rebuttal/cross_validation/scripts/run_analysis.sh",
+      "destination": "controls/cross_validation/scripts/run_analysis.sh",
+      "source_sha256": "a766edbe9a538db0817f4eb65c55f28d0df2c196f6b4ab59f2a2a464f7d3f06e"
+    },
+    {
+      "source": "ICML2026_rebuttal/cross_validation/scripts/run_cross_validation.sh",
+      "destination": "controls/cross_validation/scripts/run_cross_validation.sh",
+      "source_sha256": "29852a5bba02d26772fe2695221c56fa67c0570a66cf6bd4b0873fc428c47308"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/analyze_benign.py",
+      "destination": "controls/system_prompt_defense/analyze_benign.py",
+      "source_sha256": "9a43d1ee63a5683fe2795ee671711491151fdeea01d0ea3196b33035fd629e5b"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/analyze_results.py",
+      "destination": "controls/system_prompt_defense/analyze_results.py",
+      "source_sha256": "b3da0bbf1a565f642def2d002ed74df9ff82e8651357f236847c409493f6b790"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/eval_defense.py",
+      "destination": "controls/system_prompt_defense/eval_defense.py",
+      "source_sha256": "dbe50d10cf3c163d40a66c1d47d0d93d244d9c081382fefad407880dcd79c24b"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/run_defense.py",
+      "destination": "controls/system_prompt_defense/run_defense.py",
+      "source_sha256": "6437cf389b5a1abbb0a1d39f25ff04e985cbe7b446774bc08b72f61797e7f247"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/run_defense.sh",
+      "destination": "controls/system_prompt_defense/run_defense.sh",
+      "source_sha256": "f6fee63e4912c713280898f0db48ed971ff2a14b76237ea2eb7944ee6a9956bf"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/start.sh",
+      "destination": "controls/system_prompt_defense/start.sh",
+      "source_sha256": "150e1f2cfa0cfa07cca12001daed3644976a7362eadf5972e03f58167e19d27a"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/create_task_xstest.py",
+      "destination": "controls/system_prompt_defense/xstest/create_task_xstest.py",
+      "source_sha256": "402361c40a32f7474f8b9d3cfbb8d35070184f503bdab382ee44993782c2d0bf"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/decompose_xstest.py",
+      "destination": "controls/system_prompt_defense/xstest/decompose_xstest.py",
+      "source_sha256": "262cb524824c2a3c0c1d8f936ff14e2014c1c22d4b62a85a42f934d679e7f753"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/eval_xstest.py",
+      "destination": "controls/system_prompt_defense/xstest/eval_xstest.py",
+      "source_sha256": "700a11d723a1c6a26cef4231bdb67fdce08da7a00335ee60d6c479d88027f7f5"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/prepare_xstest.py",
+      "destination": "controls/system_prompt_defense/xstest/prepare_xstest.py",
+      "source_sha256": "3c8dfa5e8e906029f147005d6648ffd331a48e3063a6dc970f27f0a56f6a3771"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/run_xstest.py",
+      "destination": "controls/system_prompt_defense/xstest/run_xstest.py",
+      "source_sha256": "db2ceaf5a717d75e6e0e619a45b994225dc4fa0ce2578f8efebeea5fe3ad511c"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/run_xstest.sh",
+      "destination": "controls/system_prompt_defense/xstest/run_xstest.sh",
+      "source_sha256": "87ef81b7c5b8223cf0ff8fdfc1ee8e24b1471b1fa87dc092ccda56fc5dffc35f"
+    },
+    {
+      "source": "ICML2026_rebuttal/cot_safety_analysis/analyze_cot.py",
+      "destination": "controls/cot_safety_analysis/analyze_cot.py",
+      "source_sha256": "9e829d40a791aa9f485d14fead764dc398d64e63792eebee844ea5efb2005348"
+    },
+    {
+      "source": "ICML2026_rebuttal/cot_safety_analysis/visualize.py",
+      "destination": "controls/cot_safety_analysis/visualize.py",
+      "source_sha256": "b6c753887745220a7f9a5bc479f1d2ba1ac647fba2b1e76f48ba9b6e4c57132c"
+    },
+    {
+      "source": "NIPS2026_rebuttal/decomposition_validation/run_objective_aligned.sh",
+      "destination": "robustness/decomposition_validation/run_objective_aligned.sh",
+      "source_sha256": "70dcb13bb88653266566afede3f7140e59f08e541350537c4fd33b6de765edb3"
+    },
+    {
+      "source": "NIPS2026_rebuttal/decomposition_validation/run_split_validation.sh",
+      "destination": "robustness/decomposition_validation/run_split_validation.sh",
+      "source_sha256": "4fdd2d92ad4bb96247d7701329d21ee14a35f0a754fe36e73439428a4d0aafdf"
+    },
+    {
+      "source": "NIPS2026_rebuttal/decomposition_validation/run_validation.sh",
+      "destination": "robustness/decomposition_validation/run_validation.sh",
+      "source_sha256": "b150eda4a29113e11c37c7da56963f95ddf4ebd43d23cbb29f3eee97a4b5aa4c"
+    },
+    {
+      "source": "NIPS2026_rebuttal/decomposition_validation/validate_decompositions.py",
+      "destination": "robustness/decomposition_validation/validate_decompositions.py",
+      "source_sha256": "63e4b156b6e1f793246bee88efc56d0876d27b7c5d3b4364e7add6535342192e"
+    },
+    {
+      "source": "NIPS2026_rebuttal/decomposition_validation/validate_decompositions_split.py",
+      "destination": "robustness/decomposition_validation/validate_decompositions_split.py",
+      "source_sha256": "6ecb4568dc6b4ed9ef3d8fcdcbafd85f6c222ce495d0b4eaa2e27afd4160dc79"
+    },
+    {
+      "source": "NIPS2026_rebuttal/decomposition_validation/validate_objective_aligned.py",
+      "destination": "robustness/decomposition_validation/validate_objective_aligned.py",
+      "source_sha256": "ceb97c0021fb6a76b265d6e6bd33634d98429ba0835b130e4a866ec956b750ab"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/evaluate.py",
+      "destination": "robustness/other_decomposition_sim/evaluate.py",
+      "source_sha256": "6bf3b9dab769eb4150697568b43ac243ec32988fa0f5f1dfe037b779c5b13c84"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/evaluate_all.sh",
+      "destination": "robustness/other_decomposition_sim/evaluate_all.sh",
+      "source_sha256": "9fe7c236a7d17791a0bd6fb03ee4756808cb4b956e57d3a48c56c0af00b016bb"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/prepare_tasks.py",
+      "destination": "robustness/other_decomposition_sim/prepare_tasks.py",
+      "source_sha256": "f24edf349cc98182a415b651dd2edaf3e303e90f7d7a89d0e919be302f4871e2"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/run_120b.sh",
+      "destination": "robustness/other_decomposition_sim/run_120b.sh",
+      "source_sha256": "81ba38a8db723b2619ef3d1d81ce6c3982d87a1298528922f32a771082b77a21"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/run_20b.sh",
+      "destination": "robustness/other_decomposition_sim/run_20b.sh",
+      "source_sha256": "538bda25b6743b7cf3716a8762820c89006ee01c41206cb1e893142c6f28e4e2"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/run_inference.py",
+      "destination": "robustness/other_decomposition_sim/run_inference.py",
+      "source_sha256": "f06d2e7c20bfe877f88e741bc9967aca480bf729fb3bd7ef06cd086709496ab2"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/run_prepare.sh",
+      "destination": "robustness/other_decomposition_sim/run_prepare.sh",
+      "source_sha256": "531da926f1261589aef82d24f15d7dade4d590cc5fc5d1412eedc8c08b2f43cd"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/summarize.py",
+      "destination": "robustness/other_decomposition_sim/summarize.py",
+      "source_sha256": "ffa0693bcd53da3af3c7a4a0383553cda2d7138676467df4d7d321fbfa1323d3"
+    },
+    {
+      "source": "NIPS2026_rebuttal/other_decomposition_sim/summarize.sh",
+      "destination": "robustness/other_decomposition_sim/summarize.sh",
+      "source_sha256": "d019ef9f48c2813d6b0420919ec047a9eefcc15b1bd5af4d4a43471b5a84f4ea"
+    },
+    {
+      "source": "NIPS2026_rebuttal/benign_baseline/run_gpt_oss_120b.py",
+      "destination": "robustness/benign_baseline/run_gpt_oss_120b.py",
+      "source_sha256": "48a0018ce62f71a631c8461a7b9311c321d37ca956d1c81e7b766c3b14bd78a9"
+    },
+    {
+      "source": "NIPS2026_rebuttal/benign_baseline/run_gpt_oss_120b.sh",
+      "destination": "robustness/benign_baseline/run_gpt_oss_120b.sh",
+      "source_sha256": "c1c95d1990a77d557fcc4d9a85eb9234bdfd8b71e5fb2582330f697237d6901b"
+    },
+    {
+      "source": "NIPS2026_rebuttal/benign_baseline/run_model.py",
+      "destination": "robustness/benign_baseline/run_model.py",
+      "source_sha256": "27c86c0fd0c8f7a5f86089f1643df734c398d0f01921890185aff6deee56479e"
+    },
+    {
+      "source": "NIPS2026_rebuttal/benign_baseline/run_other_model.sh",
+      "destination": "robustness/benign_baseline/run_other_model.sh",
+      "source_sha256": "230114faf0f79ceb847150cb675fb61c860a28c6c9fe5d667ae6e062d4967bf4"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/evaluate_0k.sh",
+      "destination": "robustness/safety_aligned_model_validation/evaluate_0k.sh",
+      "source_sha256": "efa4c7ca25a66a28d270d1d8cc6a56721ddf9f0d40f3e1232870fa81cb316e41"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/evaluate_all.sh",
+      "destination": "robustness/safety_aligned_model_validation/evaluate_all.sh",
+      "source_sha256": "240e3e127752cb858f843ee948c7526fa619e6731e94cc840cf219b6115a7dd6"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/evaluate_qwen.sh",
+      "destination": "robustness/safety_aligned_model_validation/evaluate_qwen.sh",
+      "source_sha256": "acad6a96ae9016e01129e9e757ac71b1a4e9cb1bc3991488037a4e012274b4ab"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/full_pipeline.sh",
+      "destination": "robustness/safety_aligned_model_validation/full_pipeline.sh",
+      "source_sha256": "c54416d3eb2e89906630de0bd702703b171d001fd577b587415f0c3156069833"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/models.json",
+      "destination": "robustness/safety_aligned_model_validation/models.json",
+      "source_sha256": "d3f5c1aeb7a6900a88c8a3e1f05b0b3eca33064832248916b4f319fe27e18710"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/overrefusal/evaluate_all.sh",
+      "destination": "robustness/safety_aligned_model_validation/overrefusal/evaluate_all.sh",
+      "source_sha256": "94809f9e51e340b3b4b17067195234a6c42c264a294f13c971488cc629b6f774"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/overrefusal/evaluate_qwen.sh",
+      "destination": "robustness/safety_aligned_model_validation/overrefusal/evaluate_qwen.sh",
+      "source_sha256": "45243c0b21c04cacc4e4aaece92e0b9f9095ed752996748d940b5ea28a9e5183"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/overrefusal/full_pipeline.sh",
+      "destination": "robustness/safety_aligned_model_validation/overrefusal/full_pipeline.sh",
+      "source_sha256": "75a00cddab2bf30b97b1bb3bfd4249f94c83bf6d3b47f83b425612b7acfc6299"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/overrefusal/run_xstest_local.py",
+      "destination": "robustness/safety_aligned_model_validation/overrefusal/run_xstest_local.py",
+      "source_sha256": "93ca77d9eabf66451f196a24a9fe4209fadb0086ff877aa3a57452d436f4ad3d"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/overrefusal/schedule.py",
+      "destination": "robustness/safety_aligned_model_validation/overrefusal/schedule.py",
+      "source_sha256": "bb05f476a7bb2e424060dc7429c633a629c659ab0f8a8cb34c2fca7431c55746"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/overrefusal/summarize.py",
+      "destination": "robustness/safety_aligned_model_validation/overrefusal/summarize.py",
+      "source_sha256": "0a3df7740c6e4faa8ad0a9140d65ab807700cba0e52e5c4c32677851e4db9cb4"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/run_inference.py",
+      "destination": "robustness/safety_aligned_model_validation/run_inference.py",
+      "source_sha256": "cf398b2d6b6b624a9953c97fb6380b761fbf4741b782af2029d9bce60cd84dcc"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/run_matrix.sh",
+      "destination": "robustness/safety_aligned_model_validation/run_matrix.sh",
+      "source_sha256": "8601ebc86a767ef6c35fe4d00b72fab2484dd121eaf19f29b04d3ca2dc9ed33d"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/schedule_matrix.py",
+      "destination": "robustness/safety_aligned_model_validation/schedule_matrix.py",
+      "source_sha256": "5fb28c036825ab6baae66640156bae86415163e1e419f8e055723aced5cccadd"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/smoke_test.sh",
+      "destination": "robustness/safety_aligned_model_validation/smoke_test.sh",
+      "source_sha256": "9728f34468eda4b263dce08d95f677adde30a2b4537fb7b302ccc112ffd24bfd"
+    },
+    {
+      "source": "NIPS2026_rebuttal/safety_aligned_model_validation/summarize.py",
+      "destination": "robustness/safety_aligned_model_validation/summarize.py",
+      "source_sha256": "ca073d65106e69fb955fd96d945bbc6d31a1d6c3c3738c83fd0ae7fe507c43e4"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/analyze_statistics.py",
+      "destination": "robustness/statistic_analysis/analyze_statistics.py",
+      "source_sha256": "ed7a9637bc2055f64c80746e6414dda1d7ef85f59067cb4c4b0fabaa9da5d0c4"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/eval/check_safe_gpt.py",
+      "destination": "paper/eval/check_safe_gpt.py",
+      "source_sha256": "efa6174836cb9792b83f2623d9a60167f5c6f09b083c52900d69749cd8410e70"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/eval/check_safe_gpt.sh",
+      "destination": "paper/eval/check_safe_gpt.sh",
+      "source_sha256": "8266a984c6935f73e2dde39f3bb6a08151ce4dacec05a413e850a4bf27f0706c"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/eval/check_safe_harmbench.py",
+      "destination": "paper/eval/check_safe_harmbench.py",
+      "source_sha256": "eec2a95e426f678a8a4cd1fcc2b20a349b51ffe1dd24b09d9a753211973c8411"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/eval/check_harmbench.sh",
+      "destination": "paper/eval/check_harmbench.sh",
+      "source_sha256": "8e883a62207245bdcab5b5c864b5f757a32a0a3397be8e8e6742267b66252466"
+    },
+    {
+      "source": "ICML2026_rebuttal/create_benign_baseline.py",
+      "destination": "controls/create_benign_baseline.py",
+      "source_sha256": "2bc86d280ac7dbd8424c2f991f73ac3d4d2a79cd90c9e317b9ccd691d4e5404a"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline_queries.json",
+      "destination": "controls/benign_baseline_queries.json",
+      "source_sha256": "90df6192b1767ec43f49cc243759064260c589517662fc93fca69c47fb767972"
+    },
+    {
+      "source": "ICML2026_rebuttal/benign_baseline_decomposed.json",
+      "destination": "controls/benign_baseline_decomposed.json",
+      "source_sha256": "f7c7575e6aed3d0f81cc6629a589991065f641bced06015e368cbe33593b2a29"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/harmbench_standard_100.json",
+      "destination": "controls/harmbench_benchmark/harmbench_standard_100.json",
+      "source_sha256": "672d5c982a4b8afd2e792744799ae069d7626afb6cfc366b0ff9b7ba1cec7f12"
+    },
+    {
+      "source": "ICML2026_rebuttal/harmbench_benchmark/harmbench_decomposed.json",
+      "destination": "controls/harmbench_benchmark/harmbench_decomposed.json",
+      "source_sha256": "c643ede1517ba1cd10d3a2a6da6576a35b85c18a14629c8318e27cf758f2e1db"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/xstest_safe.json",
+      "destination": "controls/system_prompt_defense/xstest/xstest_safe.json",
+      "source_sha256": "56c26a4325331d9f43edb2db71fa6b81ab41e64f34412fcb32246323f34da4e9"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/xstest_unsafe.json",
+      "destination": "controls/system_prompt_defense/xstest/xstest_unsafe.json",
+      "source_sha256": "2fbf8f50676676d1dd6b8d0f1da155c7f7dcd01607da84776396c4749081a8a3"
+    },
+    {
+      "source": "ICML2026_rebuttal/system_prompt_defense/xstest/xstest_decomposed.json",
+      "destination": "controls/system_prompt_defense/xstest/xstest_decomposed.json",
+      "source_sha256": "ad1def60d00afd94304f0fb668efcd236a2a46842c90af305935c1c9ee499ca2"
+    },
+    {
+      "source": "test_multi_step_reasoning_final/results/advbench_transformed_api_Qwen3-Next-80B_fixed.json",
+      "destination": "data/source/advbench_transformed_api_Qwen3-Next-80B_fixed.json",
+      "source_sha256": "97ac30783e0cb40f0392976fb05a5c143b396983d97e795d83da269eb5b8cd5b"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/aggregate_bootstrap_summary.csv",
+      "destination": "reference/statistic_analysis/aggregate_bootstrap_summary.csv",
+      "source_sha256": "f3aa949913c837e39ac6591eed841a275a1100b7c8ddc886a138a1a12fcbfdc7"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/cell_safety_ratio_wilson.csv",
+      "destination": "reference/statistic_analysis/cell_safety_ratio_wilson.csv",
+      "source_sha256": "f88287ff02adaf3923e78423caca3a75969d95a8f1df3feb9f8a837c2cfd961d"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/invalid_score_audit.csv",
+      "destination": "reference/statistic_analysis/invalid_score_audit.csv",
+      "source_sha256": "f58aa577c0cbac0d8816540477a6b6a08722a6895a354e6ab668d26db2278a7f"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/paired_bootstrap_average_compositional_gaps.csv",
+      "destination": "reference/statistic_analysis/paired_bootstrap_average_compositional_gaps.csv",
+      "source_sha256": "f488a450dc2d48a6c1a3405fa3b315d1c7a69a80cad9e4ac63bbee867d5c493a"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/paired_bootstrap_context_gaps.csv",
+      "destination": "reference/statistic_analysis/paired_bootstrap_context_gaps.csv",
+      "source_sha256": "82d6289a742075bdf86729284a00bd41414ea4e0e94498be5958ef0fb8c16ee6"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/paired_bootstrap_gap_amplification.csv",
+      "destination": "reference/statistic_analysis/paired_bootstrap_gap_amplification.csv",
+      "source_sha256": "e96c9ee9c3a6e2f75e82a09f18ba95b7b4b694141c02abac08b067aa240b864b"
+    },
+    {
+      "source": "NIPS2026_rebuttal/statistic_analysis/paired_bootstrap_structure_gaps.csv",
+      "destination": "reference/statistic_analysis/paired_bootstrap_structure_gaps.csv",
+      "source_sha256": "b13e65c5456522735bede6dcfe34d3e69d5a751f1a364c681e9f8edc1713ffa1"
+    },
+    {
+      "source": "ICML2026_rebuttal/cross_validation/results/judge_agreement_analysis.json",
+      "destination": "reference/results/judge_agreement_analysis.json",
+      "source_sha256": "6721aad69be10f1c2b1909dc4c4026dff7655852da419130cf841cc94bf778f1"
+    }
+  ]
+}

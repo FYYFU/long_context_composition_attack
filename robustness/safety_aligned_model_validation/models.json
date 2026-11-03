@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "alias": "r1-distill-qwen-7b-base",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "family": "qwen-7b",
+      "alignment": "original"
+    },
+    {
+      "alias": "r1-distill-qwen-7b-safepath",
+      "model_id": "AI-ISL/DeepSeek-R1-Distill-Qwen-7B-SP",
+      "family": "qwen-7b",
+      "alignment": "safepath"
+    },
+    {
+      "alias": "r1-distill-qwen-7b-star1",
+      "model_id": "UCSC-VLAA/STAR1-R1-Distill-7B",
+      "family": "qwen-7b",
+      "alignment": "star1"
+    },
+    {
+      "alias": "r1-distill-llama-8b-base",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "family": "llama-8b",
+      "alignment": "original"
+    },
+    {
+      "alias": "r1-distill-llama-8b-safepath",
+      "model_id": "AI-ISL/DeepSeek-R1-Distill-Llama-8B-SP",
+      "family": "llama-8b",
+      "alignment": "safepath"
+    },
+    {
+      "alias": "r1-distill-llama-8b-star1",
+      "model_id": "UCSC-VLAA/STAR1-R1-Distill-8B",
+      "family": "llama-8b",
+      "alignment": "star1"
+    }
+  ]
+}

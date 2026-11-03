@@ -1,0 +1,43 @@
+[
+  {
+    "name": "advbench",
+    "repository": "https://github.com/llm-attacks/llm-attacks",
+    "license": "MIT",
+    "source": "https://github.com/llm-attacks/llm-attacks/blob/main/LICENSE",
+    "local": "third_party/licenses/advbench.txt"
+  },
+  {
+    "name": "babilong",
+    "repository": "https://github.com/booydar/babilong",
+    "license": "Apache-2.0",
+    "source": "https://github.com/booydar/babilong/blob/main/LICENSE",
+    "local": "third_party/licenses/babilong.txt"
+  },
+  {
+    "name": "pg19",
+    "repository": "https://github.com/google-deepmind/pg19",
+    "license": "Apache-2.0",
+    "source": "https://github.com/google-deepmind/pg19/blob/master/LICENSE",
+    "local": "third_party/licenses/pg19.txt"
+  },
+  {
+    "name": "harmbench",
+    "repository": "https://github.com/centerforaisafety/HarmBench",
+    "license": "MIT",
+    "source": "https://github.com/centerforaisafety/HarmBench/blob/main/LICENSE",
+    "local": "third_party/licenses/harmbench.txt"
+  },
+  {
+    "name": "xstest",
+    "repository": "https://github.com/paul-rottger/xstest",
+    "license": "CC-BY-4.0",
+    "source": "https://github.com/paul-rottger/xstest/blob/main/LICENSE",
+    "local": "third_party/licenses/xstest.txt"
+  },
+  {
+    "name": "xteaming",
+    "repository": "https://github.com/salman-lui/x-teaming",
+    "license": null,
+    "status": "No repository-level license found; confirm upstream prompt redistribution terms before public release."
+  }
+]

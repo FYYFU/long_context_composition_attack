@@ -1,0 +1,26 @@
+model,result_directory,context,level,structure,n,valid_count,invalid_count,invalid_percent
+GPT-oss-20b,gpt-oss-20b-medium,0k,1,Single-hop Aggregation,100,99,1,1.0
+Qwen3-next-80b-thinking,qwen3-next-80b-a3b-thinking-default,0k,1,Single-hop Aggregation,100,99,1,1.0
+Qwen3-next-80b-thinking,qwen3-next-80b-a3b-thinking-default,64k,1,Single-hop Aggregation,100,98,2,2.0
+Qwen3-next-80b-thinking,qwen3-next-80b-a3b-thinking-default,64k,3,Multi-hop Deductive Reasoning,100,98,2,2.0
+GPT-oss-120b,gpt-oss-120b-medium,0k,1,Single-hop Aggregation,100,99,1,1.0
+Minimax-m2,minimax-m2-default,0k,1,Single-hop Aggregation,100,99,1,1.0
+Kimi-k2-thinking,kimi-k2-thinking-default,0k,1,Single-hop Aggregation,100,99,1,1.0
+Kimi-k2-thinking,kimi-k2-thinking-default,64k,0,Direct Retrieval,100,99,1,1.0
+Kimi-k2-thinking,kimi-k2-thinking-default,64k,3,Multi-hop Deductive Reasoning,100,99,1,1.0
+Gemini-2.5-flash,gemini-2.5-flash-default,0k,2,Chain Reasoning,100,96,4,4.0
+Gemini-3-pro,gemini-3-pro-preview-default,0k,1,Single-hop Aggregation,100,99,1,1.0
+Gemini-3-pro,gemini-3-pro-preview-default,64k,2,Chain Reasoning,100,99,1,1.0
+GPT-5.1,gpt-5.1-default,64k,1,Single-hop Aggregation,100,98,2,2.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,0k,0,Direct Retrieval,100,80,20,20.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,0k,1,Single-hop Aggregation,100,90,10,10.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,0k,2,Chain Reasoning,100,94,6,6.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,0k,3,Multi-hop Deductive Reasoning,100,86,14,14.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,16k,0,Direct Retrieval,100,72,28,28.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,16k,1,Single-hop Aggregation,100,77,23,23.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,16k,2,Chain Reasoning,100,86,14,14.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,16k,3,Multi-hop Deductive Reasoning,100,75,25,25.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,64k,0,Direct Retrieval,100,45,55,55.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,64k,1,Single-hop Aggregation,100,69,31,31.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,64k,2,Chain Reasoning,100,77,23,23.0
+Claude-sonnet-4.5,claude-sonnet-4.5-default,64k,3,Multi-hop Deductive Reasoning,100,71,29,29.0
